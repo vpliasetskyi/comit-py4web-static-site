@@ -1,15 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My First Website</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
-<div id="message-box">Hello! I am unchanged.</div>
-<button id="magic-button"> Click me!</button>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Explorer Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-  <body>
-    <h1> My website </h1>
-    <p>This is my website </p>
-  </body>
-  </html>
+<body>
+  <div id="profile-card">
+    <h1 id="explorer-name" title="Double-click to rename!">Commander Vlad</h1>
+    <p class="explorer-title">Astronaut in Training 🚀</p>
+    <ul class="explorer-stats">
+      <li>🪐 Favourite planet: <strong>Earth</strong></li>
+      <li>🌙 Moon landings: <strong>0 (so far!)</strong></li>
+      <li>⭐ Skills: <strong>HTML · CSS · JavaScript</strong></li>
+    </ul>
+    <button id="launch-btn">✨ Launch Mission</button>
+    <p id="mission-status"></p>
+  </div>
+</body>
+</html>
